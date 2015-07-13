@@ -19,9 +19,9 @@ describe 'orders/return_authorizations' do
         }.to change(Spree::ReturnAuthorization, :count).by(1)
       end
 
-      it 'has pending state' do
+      it 'has authorized state' do
         create_return_authorization_for(order)
-        expect(Spree::ReturnAuthorization.last.state).to eq('pending')
+        expect(Spree::ReturnAuthorization.last.state).to eq('authorized')
       end
     end
 
