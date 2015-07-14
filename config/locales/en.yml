@@ -7,3 +7,12 @@ en:
       create_returns: 'Return or replace items'
       created: 'Return request created.'
       not_eligibile: 'This order is not eligibile for return.'
+      return_authorization_mailer:
+        confirm_email:
+          subject: 'Return Authorization Confirmation'
+          dear_customer: 'Dear Customer,'
+          confirmation: "You return/exchange request has been received for order"
+          return_summary: "Return/Exchange Summary"
+          reason: "Reason"
+          memo: "Memo"
+          instruction: "Please ship back the return item(s), and we will process the refund/exchange as soon as we receive the package."
