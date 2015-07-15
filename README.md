@@ -3,6 +3,12 @@ SpreeReturnAuthorizationsFrontend
 
 This extension adds a frontend interface to allow user to ask for items returns.
 
+This fork makes the following changes:
+- add exchange options to the frontend interface
+- remove the need for admin to authorize a return/exchange request
+- add email confirmation when RMA is filed
+- remove return request list from order details page
+
 Installation
 ------------
 
