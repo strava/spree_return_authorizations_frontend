@@ -15,7 +15,7 @@ Installation
 Add spree_return_authorizations_frontend to your Gemfile:
 
 ```ruby
-gem 'spree_return_authorizations_frontend'
+gem 'spree_return_authorizations_frontend', github: 'yf6/spree_return_authorizations_frontend'
 ```
 
 Bundle your dependencies and run the installation generator:
