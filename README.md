@@ -8,6 +8,7 @@ This fork makes the following changes:
 - remove the need for admin to authorize a return/exchange request
 - add email confirmation when RMA is filed
 - remove return request list from order details page
+- only allow a return request to be file when there is no existing return authorization on the item (or when all existing ones are canceled)
 
 Installation
 ------------
