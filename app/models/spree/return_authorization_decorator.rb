@@ -13,11 +13,4 @@ Spree::ReturnAuthorization.class_eval do
       transition to: :canceled, from: [:pending, :authorized], if: lambda { |return_authorization| return_authorization.can_cancel_return_items? }
     end
   end
-
-  after_commit :send_ra_confirmation_mail, on: :create
-
-  private
-  def send_ra_confirmation_mail
-    Spree::ReturnAuthorizationMailer.confirm_email(self).deliver if self.authorized?
-  end
 end

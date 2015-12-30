@@ -5,7 +5,6 @@ This extension adds a frontend interface to allow user to ask for items returns.
 
 This fork makes the following changes:
 - add exchange options to the frontend interface
-- add email confirmation when RMA is filed
 - only allow a return request to be file when there is no existing return authorization on the item (or when all existing ones are canceled)
 
 Installation
